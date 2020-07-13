@@ -14,6 +14,7 @@ function App () {
 				onStart={() => console.log('onStart callback')}
 				onPause={() => console.log('onPause callback')}
 				onEnded={() => console.log('onEnded callback')}
+				onError={() => console.log('onError callback')}
 			/>
 		</div>
 	);
