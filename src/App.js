@@ -9,7 +9,7 @@ function App () {
 				width='480px'
 				height='240px'
 				controls
-				url='https://youtu.be/TQUy8ENesGY'
+				url='https://www.twitch.tv/videos/674638399'
 				onReady={() => console.log('onReady callback')}
 				onStart={() => console.log('onStart callback')}
 				onPause={() => console.log('onPause callback')}
