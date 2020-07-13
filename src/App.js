@@ -11,6 +11,7 @@ function App () {
 				controls
 				url='https://youtu.be/TQUy8ENesGY'
 				onReady={() => console.log('onReady callback')}
+				onStart={() => console.log('onStart callback')}
 			/>
 		</div>
 	);
