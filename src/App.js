@@ -13,6 +13,7 @@ function App () {
 				onReady={() => console.log('onReady callback')}
 				onStart={() => console.log('onStart callback')}
 				onPause={() => console.log('onPause callback')}
+				onEnded={() => console.log('onEnded callback')}
 			/>
 		</div>
 	);
