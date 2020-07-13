@@ -6,6 +6,8 @@ const ResponsivePlayer = () => (
 	<div className='player-wrapper'>
 		<ReactPlayer
 			className='react-player'
+			width='100%'
+			height='100%'
 			controls
 			url='https://www.twitch.tv/videos/674638399'
 			onReady={() => console.log('onReady callback')}
